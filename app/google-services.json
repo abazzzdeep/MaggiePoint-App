@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12934969694",
+    "project_id": "maggiepoint-52a4e",
+    "storage_bucket": "maggiepoint-52a4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12934969694:android:b7b6960c4e1404032af7cf",
+        "android_client_info": {
+          "package_name": "com.example.maggiepoint"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3HgFlxS43AnjKERKHLHnGb-8Xr1kUrqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

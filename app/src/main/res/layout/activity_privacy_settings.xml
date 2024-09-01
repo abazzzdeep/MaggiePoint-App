@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacy Settings"
+            android:textSize="24sp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/dark_blue"
+            android:layout_marginBottom="24dp" />
+
+        <Switch
+            android:id="@+id/switch_profile_visibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile Visibility"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <Switch
+            android:id="@+id/switch_activity_visibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity Visibility"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <Switch
+            android:id="@+id/switch_third_party_sharing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Third-Party Data Sharing"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <Switch
+            android:id="@+id/switch_advertising_preferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personalized Ads"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/button_export_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Export Data"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:background="@color/purple"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/button_delete_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Account"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:background="@color/colorError"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

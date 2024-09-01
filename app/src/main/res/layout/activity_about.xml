@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:paddingTop="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Me"
+            android:textSize="24sp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/dark_blue"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hey there! I’m Abhash Deep. I built this Android app as part of an entrepreneurship project for college. Despite being a total noob in development, I managed to learn and whip this up in a short amount of time. This journey has been a wild ride and helped me level up my Android dev skills and project management game."
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect with me:"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/dark_blue"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewGithub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GitHub: github.com/abazzzdeep"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="8dp"
+            android:autoLink="web" />
+
+        <TextView
+            android:id="@+id/textViewLinkedIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LinkedIn: linkedin.com/in/abhashdeep"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="8dp"
+            android:autoLink="web" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: abhashdeep11@gmail.com"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="8dp"
+            android:autoLink="email" />
+
+        <TextView
+            android:id="@+id/textViewInstagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instagram: @abhash_deep"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="8dp"
+            android:autoLink="web" />
+
+        <TextView
+            android:id="@+id/textViewValorant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valorant ID: noobbsuckk#Z210"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+</ScrollView>
